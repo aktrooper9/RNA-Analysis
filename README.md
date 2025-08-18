@@ -111,3 +111,45 @@ A **scatter plot** combining statistical significance and magnitude of change.
 
 ---
 
+
+
+
+
+---
+
+---
+
+##  Key Results for 115828
+
+### Major Findings in Males
+The differential expression analysis for **male samples** (mgs level 4 vs 1) revealed that:  
+- **Gene ID 4057** was **far more expressed** than any other gene.  
+- The **top DEGs plot** showed a single dominant signal (gene 4057), while the rest of the genes showed minimal or no differential expression.  
+
+This result is unusual because in typical RNA-seq analyses, we expect to see a distribution of multiple genes that are upregulated or downregulated.  
+
+### Comparison with Females
+In contrast, the **female samples** showed:  
+- Multiple genes differentially expressed.  
+- A more typical distribution, with several genes both upregulated and downregulated across conditions.  
+
+### Why is This Strange?
+The male-specific result suggests that:  
+1. **One gene (4057) drives nearly all the observed differences** in expression.  
+2. This could be due to:  
+   - **Biological reasons** → 4057 may have a sex-specific regulatory role.  
+   - **Technical artifact** → sample imbalance, mapping issues, or errors in raw counts.  
+
+Because females showed multiple DEGs, the **male-specific dominance of one gene** stands out as biologically intriguing but also calls for careful QC and validation.  
+
+---
+
+## Supporting Figures
+
+### Top DEGs (Males)  
+<img src="./results/plots/top_degs_plot_mgs_1_vs_4_males.png" alt="Top DEGs Males" width="600"/>  
+
+### Top DEGs (Females)  
+<img src="./results/plots/top_degs_plot_mgs_1_vs_4_females.png" alt="Top DEGs Females" width="600"/>  
+
+These visualizations highlight the difference between males (single dominant DEG) and females (multiple DEGs).  
