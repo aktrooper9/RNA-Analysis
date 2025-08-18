@@ -118,8 +118,9 @@ A **scatter plot** combining statistical significance and magnitude of change.
 ---
 
 ---
+---
 
-##  Key Results for 115828
+##  Key Results
 
 ### Major Findings in Males
 The differential expression analysis for **male samples** (mgs level 4 vs 1) revealed that:  
@@ -144,12 +145,12 @@ Because females showed multiple DEGs, the **male-specific dominance of one gene*
 
 ---
 
-## Supporting Figures
+##  Supporting Figures
 
 ### Top DEGs (Males)  
-<img src="./results/plots/top_degs_plot_mgs_1_vs_4_males.png" alt="Top DEGs Males" width="600"/>  
+<img src="115828/Male 1 vs 4/results/plots/top_degs_plot_mgs_1_vs_4_males.png" alt="Top DEGs Males" width="600"/>  
 
 ### Top DEGs (Females)  
-<img src="./results/plots/top_degs_plot_mgs_1_vs_4_females.png" alt="Top DEGs Females" width="600"/>  
+<img src="115828/Female%201%20vs%204/results/plots/top_degs_plot_mgs_1_vs_4_females.png?raw=true" alt="Top DEGs Females" width="600"/>  
 
 These visualizations highlight the difference between males (single dominant DEG) and females (multiple DEGs).  
